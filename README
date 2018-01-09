@@ -1,0 +1,10 @@
+The array syntax is defined as below
+    IDENTIFIER '[ Numerical_Predicate ']'
+where Numerical_Predicate is the combination of any numbers, variables, Arithmetic Operators and '(' ')'.   (Numerical_Predicate doesn't include logical or conditional operators)
+Hence according to my parser int a[1==2] is a syntax error, whereas in the gcc compiler it is not a syntax error.
+
+Also for the syntax " for i= 1, 100 {} ", as per my Interpretation, "i" can assume the value of 99 instead of going till 100.
+
+PLEASE NOTE THESE ABOVE POINTS
+
+This is a Compiler for the toy Language B
